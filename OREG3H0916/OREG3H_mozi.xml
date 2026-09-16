@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UT-8"?>
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex"/>
+        <szinesz id="u5g_4xm_2jb" nev="Madison_Ivy"/>
+        <szinesz id="a">
+            <gyerekszinesz/>
+            <musicalszinesz/>
+            <szinkronszinesz/>
+        </szinesz>
+        <iro id="trv_4xm_2jb"/>
+    </film>
+    <film id="a1" mufaj="akcio">
+        <rendezo id="nzk_4xm_3jb" nev="gabor">
+            <szarmazas>Magyarország</szarmazas>
+            <eletkor>45</eletkor>
+        </rendezo>
+        <iro id="trv_4xm_3jb">
+            <eletkor>38</eletkor>
+            <best-seller>A legjobb könyv</best-seller>
+        </iro>
+    </film>
+</mozi>
