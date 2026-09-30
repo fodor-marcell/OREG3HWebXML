@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OREG3H_orarend SYSTEM "OREG3H_orarend.dtd">
+
+<OREG3H_orarend>
+    <ora id="123" tipus="Elmélet">
+        <targy>Web technológiák 1.</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>V. Előadó</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="124" tipus="Gyakorlat">
+        <targy>Web technológiák 1.</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="125" tipus="Elmélet">
+        <targy>Egészséges gyermek gondozása</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Stefánia 101</helyszin>
+        <oktato>Perge Anna</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="126" tipus="Elmélet">
+        <targy>Mesterséges Intelligencia alapok</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>XXXIII. Előadó</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="127" tipus="Gyakorlat">
+        <targy>Mesterséges Intelligencia alapok</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>XXXII. Előadó</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="128" tipus="Elmélet">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>XXX. Előadó</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="129" tipus="Elmélet">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>XXX. Előadó</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="130" tipus="Elmélet">
+        <targy>Webes adatkezelő környezetek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Prof. Dr. Kovács László</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="131" tipus="Gyakorlat">
+        <targy>Webes adatkezelő környezetek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="132" tipus="Elmélet">
+        <targy>Vállalati információs rendszerek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+    <ora id="133" tipus="Gyakorlat">
+        <targy>Vállalati információs rendszerek</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>18:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </ora>
+</OREG3H_orarend>

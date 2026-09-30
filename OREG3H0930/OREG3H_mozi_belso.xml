@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi [
+    <!ELEMENT mozi (film)*>
+    <!ELEMENT film (rendezo?, szinesz*, iro?)>
+    <!ATTLIST film
+        id ID #REQUIRED
+        mufaj (horror|akcio|drama) #REQUIRED
+    >
+
+    <!ELEMENT rendezo (szarmazas?, eletkor?)>
+    <!ATTLIST rendezo
+        id ID #REQUIRED
+        nev CDATA #IMPLIED
+    >
+
+    <!ELEMENT szinesz (gyerekszinesz | musicalszinesz | szinkronszinesz)*>
+    <!ATTLIST szinesz
+        id ID #REQUIRED
+        nev CDATA #IMPLIED
+    >
+
+    <!ELEMENT iro (eletkor?, best-seller?)>
+    <!ATTLIST iro
+        id ID #REQUIRED
+    >
+
+    <!ELEMENT gyerekszinesz EMPTY>
+    <!ELEMENT musicalszinesz EMPTY>
+    <!ELEMENT szinkronszinesz EMPTY>
+    <!ELEMENT szarmazas (#PCDATA)>
+    <!ELEMENT eletkor (#PCDATA)>
+    <!ELEMENT best-seller (#PCDATA)>
+]>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex"/>
+        <szinesz id="u5g_4xm_2jb" nev="Madison_Ivy"/>
+        <szinesz id="a">
+            <gyerekszinesz/>
+            <musicalszinesz/>
+            <szinkronszinesz/>
+        </szinesz>
+        <iro id="trv_4xm_2jb"/>
+    </film>
+
+    <film id="a1" mufaj="akcio">
+        <rendezo id="nzk_4xm_3jb" nev="gabor">
+            <szarmazas>Magyarország</szarmazas>
+            <eletkor>45</eletkor>
+        </rendezo>
+        <iro id="trv_4xm_3jb">
+            <eletkor>38</eletkor>
+            <best-seller>A legjobb könyv</best-seller>
+        </iro>
+    </film>
+</mozi>

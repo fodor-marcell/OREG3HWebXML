@@ -1,0 +1,21 @@
+<!ELEMENT mozi (film)*>
+
+<!ELEMENT film (rendezo?, szinesz*, iro?)>
+<!ATTLIST film id ID #REQUIRED mufaj (horror|akcio|drama) #REQUIRED>
+
+<!ELEMENT rendezo (szarmazas?, eletkor?)>
+<!ATTLIST rendezo id ID #REQUIRED nev CDATA #IMPLIED>
+
+<!ELEMENT szinesz (gyerekszinesz | musicalszinesz | szinkronszinesz)*>
+<!ATTLIST szinesz id ID #REQUIRED nev CDATA #IMPLIED>
+
+<!ELEMENT iro (eletkor?, best-seller?)>
+<!ATTLIST iro id ID #REQUIRED>
+
+<!ELEMENT gyerekszinesz EMPTY>
+<!ELEMENT musicalszinesz EMPTY>
+<!ELEMENT szinkronszinesz EMPTY>
+
+<!ELEMENT szarmazas (#PCDATA)>
+<!ELEMENT eletkor (#PCDATA)>
+<!ELEMENT best-seller (#PCDATA)>

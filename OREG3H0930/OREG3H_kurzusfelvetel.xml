@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OREG3H_kurzusfelvetel SYSTEM "OREG3H_kurzusfelvetel.dtd">
+<OREG3H_kurzusfelvetel tanev="2026/2027 ősz" egyetem="ME">
+    <hallgato>
+        <hnev>Fodor Marcell</hnev>
+        <szulev>2005</szulev>
+        <szak>Programtervező Informatikus (Bsc)</szak>
+    </hallgato>
+    <kurzusok>
+        <kurzus id="GEIAL331-B2" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Web technológiák 1. - Elmélet</kurzusnev>
+            <kredit>5</kredit>
+            <hely>V. Előadó</hely>
+            <idopont>Hétfő 10:00-12:00</idopont>
+            <oktato>Dr. Agárdi Anita</oktato>
+        </kurzus>
+        <kurzus id="GEIAL32K-B2" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Web technológiák 1. - Gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/101</hely>
+            <idopont>Hétfő 14:00-16:00</idopont>
+            <oktato>Dr. Agárdi Anita</oktato>
+        </kurzus>
+        <kurzus id="MEREKMODEGYG">
+            <kurzusnev>Egészséges gyermek gondozása - Elmélet</kurzusnev>
+            <kredit>3</kredit>
+            <hely>Stefánia épület 101. terem</hely>
+            <idopont>Hétfő 16:00-18:00</idopont>
+            <oktato>Perge Anna</oktato>
+        </kurzus>
+        <kurzus id="GEIAK130-B2">
+            <kurzusnev>Mesterséges Intelligencia alapok - Elmélet</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXIII. Előadó</hely>
+            <idopont>Kedd 10:00-12:00</idopont>
+            <oktato>Kunné Dr. Tamás Judit</oktato>
+        </kurzus>
+        <kurzus id="GEIAK130-B2">
+            <kurzusnev>Mesterséges Intelligencia alapok - Gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII. Előadó</hely>
+            <idopont>Kedd 8:00-10:00</idopont>
+            <oktato>Kunné Dr. Tamás Judit</oktato>
+        </kurzus>
+        <kurzus id="GEMAK234-B2">
+            <kurzusnev>Algoritmusok és vizsgálatuk - Elmélet</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXX. Előadó</hely>
+            <idopont>Kedd 14:00-16:00</idopont>
+            <oktato>Dr. Házy Attila</oktato>
+        </kurzus>
+        <kurzus id="GEMAK234-B2">
+            <kurzusnev>Algoritmusok és vizsgálatuk - Gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXX. Előadó</hely>
+            <idopont>Kedd 16:00-18:00</idopont>
+            <oktato>Dr. Házy Attila</oktato>
+        </kurzus>
+        <kurzus id="GEIAL32K-B2">
+            <kurzusnev>Webes adatkezelő környezetek - Elmélet</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/202</hely>
+            <idopont>Szerda 8:00-10:00</idopont>
+            <oktato>Prof. Dr. Kovács László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL32K-B2">
+            <kurzusnev>Webes adatkezelő környezetek - Gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/101</hely>
+            <idopont>Szerda 12:00-14:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL315-B2">
+            <kurzusnev>Vállalati információs rendszerek fejlesztése- Elmélet</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Szerda 14:00-16:00</idopont>
+            <oktato>Dr. Sasvári Péter László</oktato>
+        </kurzus>
+        <kurzus id="GEIAL315-B2">
+            <kurzusnev>Vállalati információs rendszerek fejlesztése- Gyakorlat</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Szerda 18:00-20:00</idopont>
+            <oktato>Dr. Sasvári Péter László</oktato>
+        </kurzus>
+    </kurzusok>
+</OREG3H_kurzusfelvetel>
