@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!-- Éttermek -->
+    <etterem ekod="e1" e_r="e1">
+        <nev>Valami étterem</nev>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Étterem utca</utca>
+            <hazszam>123</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+    <etterem ekod="e2" e_r="e2">
+        <nev>Másik étterem</nev>
+        <cim>
+            <varos>Debrecen</varos>
+            <utca>Debreceni utca</utca>
+            <hazszam>12345</hazszam>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+    <!-- Főszakács -->
+    <foszakacs fkod="f1" e_f="e1">
+        <nev>Havas Péter</nev>
+        <eletkor>35</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f2" e_f="e2">
+        <nev>Kovács János</nev>
+        <eletkor>40</eletkor>
+        <vegzettseg>Szakiskola</vegzettseg>
+    </foszakacs>
+
+    <!-- Szakácsok -->
+    <szakacs szkod="sz1" e_sz="e1">
+        <nev>Kovács János</nev>
+        <reszleg>Levesek</reszleg>
+        <vegzettseg>Szakiskola</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz2" e_sz="e2">
+        <nev>Szabó Máté</nev>
+        <reszleg>Főétel</reszleg>
+        <vegzettseg>Szakiskola</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz3" e_sz="e3">
+        <nev>Kiss Erzsébet</nev>
+        <reszleg>Desszert</reszleg>
+        <vegzettseg>Szakiskola</vegzettseg>
+    </szakacs>
+
+    <!-- Gyakornokok -->
+    <gyakornok gykod="gy1" e_gy="e1">
+        <nev>Horvát Péter</nev>
+        <gyakorlat>
+            <kezdete>2023.08.20.</kezdete>
+            <idotartama>2 honap</idotartama>
+        </gyakorlat>
+        <muszak>Délután</muszak>
+    </gyakornok>
+
+    <gyakornok gykod="gy2" e_gy="e2">
+        <nev>Szilágyi István</nev>
+        <gyakorlat>
+            <kezdete>2023.08.20.</kezdete>
+            <idotartama>2 honap</idotartama>
+        </gyakorlat>
+        <muszak>Délután</muszak>
+    </gyakornok>
+
+    <gyakornok gykod="gy3" e_gy="e3">
+        <nev>Szentpétery Ferenc</nev>
+        <gyakorlat>
+            <kezdete>2023.01.01.</kezdete>
+            <idotartama>10 honap</idotartama>
+        </gyakorlat>
+        <muszak>Délelőtt</muszak>
+        <muszak>Délután</muszak>
+    </gyakornok>
+
+    <!-- Vendégek -->
+    <vendeg vkod="v1">
+        <nev>Fekete Péter</nev>
+        <eletkor>21</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Márton</utca>
+            <hazszam>17</hazszam>
+        </cim>
+    </vendeg>
+
+    <vendeg vkod="v2">
+        <nev>Bordás Áron</nev>
+        <eletkor>25</eletkor>
+        <cim>
+            <varos>Eger</varos>
+            <utca>Dobó</utca>
+            <hazszam>12</hazszam>
+        </cim>
+    </vendeg>
+
+     <vendeg vkod="v3">
+        <nev>Kiss Hajnalka</nev>
+        <eletkor>26</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Egyetem-város</utca>
+            <hazszam>1</hazszam>
+        </cim>
+     </vendeg>
+
+     <!-- Rendelés -->
+    <rendeles e_v_e="e1" e_v_v="v1">
+        <osszeg>20000</osszeg>
+        <etel>Zsíros kenyér</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v1">
+        <osszeg>300</osszeg>
+        <etel>Mackó sajt</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v1">
+        <osszeg>15000</osszeg>
+        <etel>Kaviár</etel>
+    </rendeles>
+</vendeglatas>
