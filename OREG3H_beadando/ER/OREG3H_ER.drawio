@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="allatkert-chen" name="ER modell">
+    <mxGraphModel dx="2200" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="karam" value="Karám" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="215" y="571" width="130" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="allat" value="Állat" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="985" y="571" width="130" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="osztaly" value="Osztály" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="571" width="130" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="eledel" value="Állat_eledel" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="975" y="1271" width="150" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="beszallito" value="Beszállító" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1271" width="140" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="van" value="Van benne" style="rhombus;fillColor=#fff2cc;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="595" y="558" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tart" value="Tartozik" style="rhombus;fillColor=#fff2cc;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="558" width="130" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="eszik" value="Eszik" style="rhombus;fillColor=#fff2cc;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="990" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hoz" value="Hoz" style="rhombus;fillColor=#fff2cc;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k_id" value="Karám_ID" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="35" y="415" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k_meret" value="Méret" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="405" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k_fero" value="Férőhely" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="415" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a_id" value="Állat_ID" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="750" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a_db" value="Darabszám" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="515" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nev" value="Állat_név" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a_etel" value="Étel_mennyiség" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="505" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o_id" value="Osztály_ID" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="405" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o_nev" value="Megnevezés" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1807.5" y="405" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o_db" value="Darabszám" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="575" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tipus" value="Típus" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1435" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_raktar" value="Raktárkészlet" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="972.5" y="1485" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b_id" value="Beszállító_ID" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1095" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b_nev" value="Beszállító_név" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="1075" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v_db" value="DB" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="735" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_ido" value="Időpont" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_k_id" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="k_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_k_meret" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="k_meret">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_k_fero" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="k_fero">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_id" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_db" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_nev" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_nev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_etel" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_etel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_o_id" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="osztaly" target="o_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_o_nev" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="osztaly" target="o_nev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_o_db" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="osztaly" target="o_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_e_tipus" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eledel" target="e_tipus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_e_raktar" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eledel" target="e_raktar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_id" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="b_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_nev" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="b_nev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_v_db" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="van" target="v_db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_h_ido" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="hoz" target="h_ido">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" value="N" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="van">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="v2" value="M" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="van" target="allat">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="t1" value="N" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="tart">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="t2" value="1" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="tart" target="osztaly">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="e1" value="N" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="eszik">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="e2" value="M" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eszik" target="eledel">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="h1" value="N" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="hoz">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="h2" value="M" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="hoz" target="eledel">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="k_nev" value="Név" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="725" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_k_nev" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="k_nev">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_hely" value="Elhelyezkedés" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="755" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_k_hely" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="karam" target="k_hely">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_osztaly" value="Osztály_ID (FK)" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="710" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_osztaly" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_osztaly">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_jellemzo" value="Jellemző" style="shape=doubleEllipse;perimeter=ellipsePerimeter;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1207.5" y="710" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_a_jellemzo" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="a_jellemzo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o_leiras" value="Leírás" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1742.5" y="755" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_o_leiras" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="osztaly" target="o_leiras">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_energia" value="Energia_kcal" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="1435" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_e_energia" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eledel" target="e_energia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tarolas" value="Tárolási_hely" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1275" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_e_tarolas" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eledel" target="e_tarolas">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_email" value="E-mail" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="1275" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_email" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="b_email">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_telefon" value="Telefon" style="shape=doubleEllipse;perimeter=ellipsePerimeter;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1425" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_telefon" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="b_telefon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_cim" value="Cím" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1475" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_cim" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="beszallito" target="b_cim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_irsz" value="Irányítószám" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="1635" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_irsz" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="b_cim" target="b_irsz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_varos" value="Város" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1635" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_varos" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="b_cim" target="b_varos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_utca" value="Utca és házszám" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1635" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b_utca" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="b_cim" target="b_utca">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gondozas" value="Gondozási terv" style="rounded=0;fillColor=#e6eff9;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="957.5" y="151" width="185" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="terv" value="Terv" style="rhombus;fillColor=#fff2cc;fontStyle=1;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="990" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="terv1" value="1" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="allat" target="terv">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="terv2" value="1" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="terv" target="gondozas">
+          <mxGeometry relative="1" as="geometry" x="0" y="-12" />
+        </mxCell>
+        <mxCell id="g_id" value="Terv_ID" style="ellipse;fillColor=#ffffff;fontStyle=4;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="155" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_id" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_allat" value="Állat_ID (FK)" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="725" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_allat" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_allat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_felelos" value="Felelős" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="910" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_felelos" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_felelos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ellenorzes" value="Ellenőrzés" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="40" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_ellenorzes" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_ellenorzes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_gyakorisag" value="Gyakoriság" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="40" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_gyakorisag" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_gyakorisag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_megjegyzes" value="Megjegyzés" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1327.5" y="155" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_g_megjegyzes" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gondozas" target="g_megjegyzes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esz_napi" value="Napi_kg" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="925" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_esz_napi" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="eszik" target="esz_napi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_mennyiseg" value="Mennyiség_kg" style="ellipse;fillColor=#ffffff;whiteSpace=wrap;html=1;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontFamily=Arial;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="1435" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_h_mennyiseg" value="" style="html=1;endArrow=none;startArrow=none;strokeColor=#222222;strokeWidth=1.5;fontColor=#111111;fontSize=16;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="hoz" target="h_mennyiseg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

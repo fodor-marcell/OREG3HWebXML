@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<allatkert xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OREG3H_XMLSchema.xsd">
+  <!-- 1. karám -->
+  <karam karam_id="1">
+    <meret>420</meret>
+    <ferohely>12</ferohely>
+    <nev>Nagymacska-karám</nev>
+    <elhelyezkedes>Nyugati rész</elhelyezkedes>
+  </karam>
+  <!-- 2. karám -->
+  <karam karam_id="2">
+    <meret>250</meret>
+    <ferohely>16</ferohely>
+    <nev>Növényevő karám</nev>
+    <elhelyezkedes>Keleti rész</elhelyezkedes>
+  </karam>
+  <!-- 3. karám -->
+  <karam karam_id="3">
+    <meret>180</meret>
+    <ferohely>20</ferohely>
+    <nev>Madárház</nev>
+    <elhelyezkedes>Északi rész</elhelyezkedes>
+  </karam>
+  <!-- 1. Van benne kapcsolat -->
+  <van_benne karam_id="1" allat_id="1">
+    <db>3</db>
+  </van_benne>
+  <!-- 2. Van benne kapcsolat -->
+  <van_benne karam_id="2" allat_id="2">
+    <db>5</db>
+  </van_benne>
+  <!-- 3. Van benne kapcsolat -->
+  <van_benne karam_id="3" allat_id="3">
+    <db>4</db>
+  </van_benne>
+  <!-- 4. Van benne kapcsolat -->
+  <van_benne karam_id="3" allat_id="4">
+    <db>6</db>
+  </van_benne>
+  <!-- 1. állatcsoport: Oroszlán -->
+  <allat allat_id="1" osztaly_id="1">
+    <darabszam>3</darabszam>
+    <allat_nev>Oroszlán</allat_nev>
+    <etel_mennyiseg>18.0</etel_mennyiseg>
+    <!-- jellemzo – 1. példány -->
+    <jellemzo>Ragadozó</jellemzo>
+    <!-- jellemzo – 2. példány -->
+    <jellemzo>Falkában él</jellemzo>
+  </allat>
+  <!-- 2. állatcsoport: Zebra -->
+  <allat allat_id="2" osztaly_id="1">
+    <darabszam>5</darabszam>
+    <allat_nev>Zebra</allat_nev>
+    <etel_mennyiseg>25.0</etel_mennyiseg>
+    <!-- jellemzo – 1. példány -->
+    <jellemzo>Növényevő</jellemzo>
+    <!-- jellemzo – 2. példány -->
+    <jellemzo>Csíkos szőrzet</jellemzo>
+  </allat>
+  <!-- 3. állatcsoport: Flamingó -->
+  <allat allat_id="3" osztaly_id="2">
+    <darabszam>4</darabszam>
+    <allat_nev>Flamingó</allat_nev>
+    <etel_mennyiseg>2.0</etel_mennyiseg>
+    <!-- jellemzo – 1. példány -->
+    <jellemzo>Gázlómadár</jellemzo>
+    <!-- jellemzo – 2. példány -->
+    <jellemzo>Rózsaszín tollazat</jellemzo>
+  </allat>
+  <!-- 4. állatcsoport: Páva -->
+  <allat allat_id="4" osztaly_id="2">
+    <darabszam>6</darabszam>
+    <allat_nev>Páva</allat_nev>
+    <etel_mennyiseg>3.0</etel_mennyiseg>
+    <!-- jellemzo – 1. példány -->
+    <jellemzo>Talajon táplálkozik</jellemzo>
+    <!-- jellemzo – 2. példány -->
+    <jellemzo>Díszes tollazat</jellemzo>
+  </allat>
+  <!-- 1. állatosztály -->
+  <osztaly osztaly_id="1">
+    <megnevezes>Emlősök</megnevezes>
+    <darabszam>8</darabszam>
+    <leiras>Melegvérű, utódait tejjel tápláló állatok.</leiras>
+  </osztaly>
+  <!-- 2. állatosztály -->
+  <osztaly osztaly_id="2">
+    <megnevezes>Madarak</megnevezes>
+    <darabszam>10</darabszam>
+    <leiras>Tollazattal rendelkező gerinces állatok.</leiras>
+  </osztaly>
+  <!-- 1. gondozási terv -->
+  <gondozasi_terv terv_id="1" allat_id="1">
+    <felelos>Kovács Anna</felelos>
+    <ellenorzes>2026-11-20</ellenorzes>
+    <gyakorisag>Naponta</gyakorisag>
+    <megjegyzes>A karám és a vízellátás ellenőrzése.</megjegyzes>
+  </gondozasi_terv>
+  <!-- 2. gondozási terv -->
+  <gondozasi_terv terv_id="2" allat_id="2">
+    <felelos>Nagy Péter</felelos>
+    <ellenorzes>2026-11-21</ellenorzes>
+    <gyakorisag>Naponta</gyakorisag>
+    <megjegyzes>A takarmány ellenőrzése.</megjegyzes>
+  </gondozasi_terv>
+  <!-- 3. gondozási terv -->
+  <gondozasi_terv terv_id="3" allat_id="3">
+    <felelos>Tóth Eszter</felelos>
+    <ellenorzes>2026-11-22</ellenorzes>
+    <gyakorisag>Naponta</gyakorisag>
+    <megjegyzes>A medence állapotának ellenőrzése.</megjegyzes>
+  </gondozasi_terv>
+  <!-- 4. gondozási terv -->
+  <gondozasi_terv terv_id="4" allat_id="4">
+    <felelos>Kiss Ádám</felelos>
+    <ellenorzes>2026-11-23</ellenorzes>
+    <gyakorisag>Naponta</gyakorisag>
+    <megjegyzes>A madárház tisztaságának ellenőrzése.</megjegyzes>
+  </gondozasi_terv>
+  <!-- 1. Eszik kapcsolat -->
+  <eszik allat_id="1" tipus="Marhahús">
+    <napi_kg>18.0</napi_kg>
+  </eszik>
+  <!-- 2. Eszik kapcsolat -->
+  <eszik allat_id="2" tipus="Széna">
+    <napi_kg>25.0</napi_kg>
+  </eszik>
+  <!-- 3. Eszik kapcsolat -->
+  <eszik allat_id="3" tipus="Madártáp">
+    <napi_kg>2.0</napi_kg>
+  </eszik>
+  <!-- 4. Eszik kapcsolat -->
+  <eszik allat_id="4" tipus="Madártáp">
+    <napi_kg>2.0</napi_kg>
+  </eszik>
+  <!-- 5. Eszik kapcsolat -->
+  <eszik allat_id="4" tipus="Magkeverék">
+    <napi_kg>1.0</napi_kg>
+  </eszik>
+  <!-- 1. eledel: Marhahús; energia kcal/kg -->
+  <allat_eledel tipus="Marhahús">
+    <raktarkeszlet>150</raktarkeszlet>
+    <energia_kcal>2500</energia_kcal>
+    <tarolasi_hely>Hűtőkamra</tarolasi_hely>
+  </allat_eledel>
+  <!-- 2. eledel: Széna; energia kcal/kg -->
+  <allat_eledel tipus="Széna">
+    <raktarkeszlet>480</raktarkeszlet>
+    <energia_kcal>1800</energia_kcal>
+    <tarolasi_hely>Szárazraktár</tarolasi_hely>
+  </allat_eledel>
+  <!-- 3. eledel: Madártáp; energia kcal/kg -->
+  <allat_eledel tipus="Madártáp">
+    <raktarkeszlet>90</raktarkeszlet>
+    <energia_kcal>3200</energia_kcal>
+    <tarolasi_hely>Takarmányraktár</tarolasi_hely>
+  </allat_eledel>
+  <!-- 4. eledel: Magkeverék; energia kcal/kg -->
+  <allat_eledel tipus="Magkeverék">
+    <raktarkeszlet>70</raktarkeszlet>
+    <energia_kcal>3600</energia_kcal>
+    <tarolasi_hely>Takarmányraktár</tarolasi_hely>
+  </allat_eledel>
+  <!-- 1. Hoz kapcsolat -->
+  <hoz beszallito_id="1" tipus="Marhahús">
+    <idopont>2026-11-20</idopont>
+    <mennyiseg_kg>100</mennyiseg_kg>
+  </hoz>
+  <!-- 2. Hoz kapcsolat -->
+  <hoz beszallito_id="1" tipus="Madártáp">
+    <idopont>2026-11-21</idopont>
+    <mennyiseg_kg>60</mennyiseg_kg>
+  </hoz>
+  <!-- 3. Hoz kapcsolat -->
+  <hoz beszallito_id="2" tipus="Széna">
+    <idopont>2026-11-22</idopont>
+    <mennyiseg_kg>300</mennyiseg_kg>
+  </hoz>
+  <!-- 4. Hoz kapcsolat -->
+  <hoz beszallito_id="2" tipus="Magkeverék">
+    <idopont>2026-11-23</idopont>
+    <mennyiseg_kg>40</mennyiseg_kg>
+  </hoz>
+  <!-- 5. Hoz kapcsolat -->
+  <hoz beszallito_id="2" tipus="Madártáp">
+    <idopont>2026-11-24</idopont>
+    <mennyiseg_kg>30</mennyiseg_kg>
+  </hoz>
+  <!-- 1. fiktív beszállító -->
+  <beszallito beszallito_id="1">
+    <beszallito_nev>Minta Takarmány Kft.</beszallito_nev>
+    <e_mail>takarmany@example.com</e_mail>
+    <!-- telefon – 1. példány -->
+    <telefon>+36 00 000 0001</telefon>
+    <!-- telefon – 2. példány -->
+    <telefon>+36 00 000 0002</telefon>
+    <cim>
+      <iranyitoszam>3525</iranyitoszam>
+      <varos>Miskolc</varos>
+      <utca_hazszam>Minta utca 1.</utca_hazszam>
+    </cim>
+  </beszallito>
+  <!-- 2. fiktív beszállító -->
+  <beszallito beszallito_id="2">
+    <beszallito_nev>Példa Eledel Kft.</beszallito_nev>
+    <e_mail>eledel@example.com</e_mail>
+    <!-- telefon – 1. példány -->
+    <telefon>+36 00 000 0003</telefon>
+    <!-- telefon – 2. példány -->
+    <telefon>+36 00 000 0004</telefon>
+    <cim>
+      <iranyitoszam>9021</iranyitoszam>
+      <varos>Győr</varos>
+      <utca_hazszam>Példa utca 2.</utca_hazszam>
+    </cim>
+  </beszallito>
+</allatkert>

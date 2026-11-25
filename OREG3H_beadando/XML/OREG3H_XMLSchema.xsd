@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Típusok -->
+  <xs:simpleType name="azonositoTipus">
+    <xs:restriction base="xs:positiveInteger"/>
+  </xs:simpleType>
+  <xs:simpleType name="nemNegativEgeszTipus">
+    <xs:restriction base="xs:nonNegativeInteger"/>
+  </xs:simpleType>
+  <xs:simpleType name="mennyisegTipus">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="szovegTipus">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="nevTipus">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="iranyitoszamTipus">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="telefonTipus">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\+?[0-9][0-9 ()-]{6,19}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="emailTipus">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[^@\s]+@[^@\s]+\.[^@\s]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="jellemzo" type="szovegTipus"/>
+  <xs:element name="telefon" type="telefonTipus"/>
+
+  <xs:complexType name="cimTipus">
+    <xs:sequence>
+      <xs:element name="iranyitoszam" type="iranyitoszamTipus"/>
+      <xs:element name="varos" type="szovegTipus"/>
+      <xs:element name="utca_hazszam" type="szovegTipus"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="karamTipus">
+    <xs:sequence>
+      <xs:element name="meret" type="mennyisegTipus"/>
+      <xs:element name="ferohely" type="xs:positiveInteger"/>
+      <xs:element name="nev" type="nevTipus"/>
+      <xs:element name="elhelyezkedes" type="szovegTipus"/>
+    </xs:sequence>
+    <xs:attribute name="karam_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="vanBenneTipus">
+    <xs:sequence>
+      <xs:element name="db" type="xs:positiveInteger"/>
+    </xs:sequence>
+    <xs:attribute name="karam_id" type="azonositoTipus" use="required"/>
+    <xs:attribute name="allat_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="allatTipus">
+    <xs:sequence>
+      <xs:element name="darabszam" type="nemNegativEgeszTipus"/>
+      <xs:element name="allat_nev" type="nevTipus"/>
+      <xs:element name="etel_mennyiseg" type="mennyisegTipus"/>
+      <xs:element ref="jellemzo" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="allat_id" type="azonositoTipus" use="required"/>
+    <xs:attribute name="osztaly_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="osztalyTipus">
+    <xs:sequence>
+      <xs:element name="megnevezes" type="nevTipus"/>
+      <xs:element name="darabszam" type="nemNegativEgeszTipus"/>
+      <xs:element name="leiras" type="szovegTipus"/>
+    </xs:sequence>
+    <xs:attribute name="osztaly_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="gondozasiTervTipus">
+    <xs:sequence>
+      <xs:element name="felelos" type="nevTipus"/>
+      <xs:element name="ellenorzes" type="xs:date"/>
+      <xs:element name="gyakorisag" type="szovegTipus"/>
+      <xs:element name="megjegyzes" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="terv_id" type="azonositoTipus" use="required"/>
+    <xs:attribute name="allat_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="eszikTipus">
+    <xs:sequence>
+      <xs:element name="napi_kg" type="mennyisegTipus"/>
+    </xs:sequence>
+    <xs:attribute name="allat_id" type="azonositoTipus" use="required"/>
+    <xs:attribute name="tipus" type="nevTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="allatEledelTipus">
+    <xs:sequence>
+      <xs:element name="raktarkeszlet" type="mennyisegTipus"/>
+      <xs:element name="energia_kcal" type="mennyisegTipus"/>
+      <xs:element name="tarolasi_hely" type="szovegTipus"/>
+    </xs:sequence>
+    <xs:attribute name="tipus" type="nevTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="hozTipus">
+    <xs:sequence>
+      <xs:element name="idopont" type="xs:date"/>
+      <xs:element name="mennyiseg_kg" type="mennyisegTipus"/>
+    </xs:sequence>
+    <xs:attribute name="beszallito_id" type="azonositoTipus" use="required"/>
+    <xs:attribute name="tipus" type="nevTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="beszallitoTipus">
+    <xs:sequence>
+      <xs:element name="beszallito_nev" type="nevTipus"/>
+      <xs:element name="e_mail" type="emailTipus"/>
+      <xs:element ref="telefon" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="cim" type="cimTipus"/>
+    </xs:sequence>
+    <xs:attribute name="beszallito_id" type="azonositoTipus" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="allatkertTipus">
+    <xs:sequence>
+      <xs:element name="karam" type="karamTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="van_benne" type="vanBenneTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="allat" type="allatTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="osztaly" type="osztalyTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="gondozasi_terv" type="gondozasiTervTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="eszik" type="eszikTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="allat_eledel" type="allatEledelTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="hoz" type="hozTipus" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="beszallito" type="beszallitoTipus" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="allatkert" type="allatkertTipus">
+    <xs:key name="karamKulcs">
+      <xs:selector xpath="karam"/>
+      <xs:field xpath="@karam_id"/>
+    </xs:key>
+    <xs:key name="allatKulcs">
+      <xs:selector xpath="allat"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:key>
+    <xs:key name="osztalyKulcs">
+      <xs:selector xpath="osztaly"/>
+      <xs:field xpath="@osztaly_id"/>
+    </xs:key>
+    <xs:key name="tervKulcs">
+      <xs:selector xpath="gondozasi_terv"/>
+      <xs:field xpath="@terv_id"/>
+    </xs:key>
+    <xs:key name="eledelKulcs">
+      <xs:selector xpath="allat_eledel"/>
+      <xs:field xpath="@tipus"/>
+    </xs:key>
+    <xs:key name="beszallitoKulcs">
+      <xs:selector xpath="beszallito"/>
+      <xs:field xpath="@beszallito_id"/>
+    </xs:key>
+    <xs:key name="vanBenneKulcs">
+      <xs:selector xpath="van_benne"/>
+      <xs:field xpath="@karam_id"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:key>
+    <xs:key name="eszikKulcs">
+      <xs:selector xpath="eszik"/>
+      <xs:field xpath="@allat_id"/>
+      <xs:field xpath="@tipus"/>
+    </xs:key>
+    <xs:key name="hozKulcs">
+      <xs:selector xpath="hoz"/>
+      <xs:field xpath="@beszallito_id"/>
+      <xs:field xpath="@tipus"/>
+    </xs:key>
+    <!-- 1:1 kapcsolat -->
+    <xs:unique name="egyAllathozEgyTerv">
+      <xs:selector xpath="gondozasi_terv"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:unique>
+
+    <xs:keyref name="vanKaramFK" refer="karamKulcs">
+      <xs:selector xpath="van_benne"/>
+      <xs:field xpath="@karam_id"/>
+    </xs:keyref>
+    <xs:keyref name="vanAllatFK" refer="allatKulcs">
+      <xs:selector xpath="van_benne"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:keyref>
+    <xs:keyref name="allatOsztalyFK" refer="osztalyKulcs">
+      <xs:selector xpath="allat"/>
+      <xs:field xpath="@osztaly_id"/>
+    </xs:keyref>
+    <xs:keyref name="tervAllatFK" refer="allatKulcs">
+      <xs:selector xpath="gondozasi_terv"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:keyref>
+    <xs:keyref name="eszikAllatFK" refer="allatKulcs">
+      <xs:selector xpath="eszik"/>
+      <xs:field xpath="@allat_id"/>
+    </xs:keyref>
+    <xs:keyref name="eszikEledelFK" refer="eledelKulcs">
+      <xs:selector xpath="eszik"/>
+      <xs:field xpath="@tipus"/>
+    </xs:keyref>
+    <xs:keyref name="hozBeszallitoFK" refer="beszallitoKulcs">
+      <xs:selector xpath="hoz"/>
+      <xs:field xpath="@beszallito_id"/>
+    </xs:keyref>
+    <xs:keyref name="hozEledelFK" refer="eledelKulcs">
+      <xs:selector xpath="hoz"/>
+      <xs:field xpath="@tipus"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
